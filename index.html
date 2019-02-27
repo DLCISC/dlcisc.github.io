@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <style type="text/css">
+            body {
+                margin: 0;
+                overflow: hidden;
+            }
+        </style>
+        <link rel="shortcut icon" href="#" />
+        <!--<link rel="shortcut icon" href="favicon.ico" /> -->
+		<script src="lib/three.min.js"></script>
+		<script src="lib/Detector.js"></script>
+		<script src="lib/Coordinates.js"></script>
+		<script src="lib/OrbitControls.js"></script>
+		<script src="lib/stats.min.js"></script>
+		<script src="lib/dat.gui.min.js"></script>
+		<script src="lib/tween.min.js"></script>
+        <script src="lib/utilities.js"></script>
+		<script src="lib/TrackBall.js"></script>
+        <!--<script src="fonts/helvetiker_regular.typeface.js"></script>-->
+		
+	</head>
+	<script type="text/javascript">
+		function getParameterByName(name) {
+			var match = RegExp('[?&]' + name + '=([^&]*)')
+							.exec(window.location.search);
+			return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+        }
+		
+		function getScript(url) {
+    e = document.createElement('script');
+    e.src = url;
+    document.body.appendChild(e);
+}
+
+
+        function init(){
+		    //
+        }
+		
+		</script>
+	<body onload="getScript('../js/HG2_Cylinder.js')">
+        <div id="container">
+        </div>
+	</body>
+</html>
